@@ -1,16 +1,16 @@
 import logging
 import os
 
-def setupLogger():
-    logFilePath = os.path.join(os.getcwd(), "logs/custom_widgets.log")
+#def setupLogger():
+    #logFilePath = os.path.join(os.getcwd(), "logs/custom_widgets.log")
     # Ensure the log directory exists
-    logDirectory = os.path.dirname(logFilePath)
-    if logDirectory != "" and not os.path.exists(logDirectory):
-        os.makedirs(logDirectory)
+    #logDirectory = os.path.dirname(logFilePath)
+    #if logDirectory != "" and not os.path.exists(logDirectory):
+     #   os.makedirs(logDirectory)
 
     # Set up the logger
-    logging.basicConfig(filename=logFilePath, level=logging.DEBUG,
-                        format='%(asctime)s - %(levelname)s - %(message)s')
+    #logging.basicConfig(filename=logFilePath, level=logging.DEBUG,
+    #                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 def logInfo(self, message):
     logging.info(message)
@@ -32,7 +32,7 @@ def logException(self, exception, message="Exception"):
     if self.showCustomWidgetsLogs:
         print(message)
 
-setupLogger()
+#setupLogger()
 
 # Log messages
 # logInfo("This is an informational message.")
