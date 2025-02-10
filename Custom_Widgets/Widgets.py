@@ -5,8 +5,8 @@ from Custom_Widgets.QAppSettings import QAppSettings
 from Custom_Widgets.QCustomQPushButton import QCustomQPushButton
 from Custom_Widgets.__init__ import *
 
-import warnings
+#import warnings
 
-warnings.warn(
-    "Deprecated imports. For more information, refer to the documentation at: https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets"
-)
+#warnings.warn(
+#    "Deprecated imports. For more information, refer to the documentation at: https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets"
+#)
